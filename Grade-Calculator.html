@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+</head>
+<body>
+    <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: black; text-align: center;">GRADE CALCULATOR</h1>
+    <script>
+        let score = prompt("What is your score:")
+        if (score >= 70) {
+            alert('Your grade is A')
+        }
+        if (score <= 69 && score >= 60) {
+            alert('Your grade is B')
+        }
+        if (score <= 60 && score >=50) {
+            alert('Your grade is C')
+        }
+        if (score <= 49 && score >=45) {
+            alert('Your grade is D')
+        }
+        if (score <= 44 && score >= 40) {
+            alert('Your grade is E')
+        }
+        if (score < 40) {
+            alert('Your grade is F')
+        }
+        document.write("<h1 style='font-weight: bold; text-align: center;'>Your Score is " + score + " "+ "Your Grade has been recorded</h1>");
+    </script>
+</body>
+</html>
